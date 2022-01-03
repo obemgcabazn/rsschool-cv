@@ -1,1 +1,1 @@
-https://obemgcabazn.github.io/rsschool-cv/cv
+https://obemgcabazn.github.io/rsschool-cv/cv.md
