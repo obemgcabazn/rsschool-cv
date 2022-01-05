@@ -388,7 +388,7 @@ ul.list-dots li:before {
   margin-top: .75rem;
   display: inline-block;
   left: 0;
-  background: url("/images/dots.svg") no-repeat;
+  background: url("images/dots.svg") no-repeat;
 }
 #experience, #english {
   margin-top: 80px;
