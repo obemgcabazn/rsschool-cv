@@ -3,8 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#my-skills">My Skills</a></li>
+          <li><a href="#examples">Code Examples</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#english">English</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-7">
+          <h1>Aleksandr Khokhryakov </h1>
+          <h3>(@obemgcabazn)</h3>
+          <h2 class="accent">Front-End Developer</h2>
+        </div>
+        <div class="col-5">
+          <img src="images/avatar.png" alt="">
+        </div>
+      </div>
 
+      <div id="contacts">
+        <h2 class="text-center">Contacts</h2>
+        <div class="row">
+          <div class="col-3 contact__item">
+            <div class="contact__name">Github:</div> <a class="contact__link" href="https://github.com/obemgcabazn/">@obemgcabazn</a>
+          </div>
+          <div class="col-3 contact__item">
+            <div class="contact__name">Codewars:</div> <a class="contact__link" href="https://www.codewars.com/users/obemgcabazn">@obemgcabazn</a>
+          </div>
+          <div class="col-3 contact__item">
+            <div class="contact__name">E-mail:</div> <a class="contact__link" href="mailto:office@spaceweb.studio" target="_blank" rel="nofollow">office@spaceweb.studio</a>
+          </div>
+          <div class="col-3 contact__item">
+            <div class="contact__name">Website:</div> <a class="contact__link" href="https://mad-dog.ru/">My Blog</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <h2 id="my-skills">My Skills</h2>
+          <ul class="list-dots">
+            <li>HTML, CSS</li>
+            <li>Sass, Jade, jQuery</li>
+            <li>Gulp, Webpack</li>
+            <li>JavaScript Basics</li>
+            <li>VueJs, NuxtJS</li>
+            <li>Git</li>
+            <li>WordPress, WooCommerce</li>
+            <li>SEO optimization</li>
+          </ul>
+        </div>
+        <div class="col-8">
+          <h2 id="about">About Me</h2>
+          <p>I am WordPress & WooCommerce developer from Moscow. I learned SEO optimization in SEO Intellect Company. Also, I did an internship as a PHP developer in the company. I got a magister`s degree as a rocket engine engineer.</p>
+          <p>I play guitar in a rock band in my free time.</p>
+        </div>
+
+      </div>
+
+      <h2 id="examples">Code Examples</h2>
+      <pre><code>const makeUpperCase = (str) => str.split('').map( (i) => i.toUpperCase() ).join('');</code></pre>
+
+      <div class="row">
+        <div class="col-6">
+          <h2 id="experience">Experience</h2>
+          <ul class="list-dots">
+            <li><a href="https://zilmet.ru">Zilmet.ru</a></li>
+            <li><a href="https://donatela.eu">Donatela.eu</a></li>
+            <li><a href="http://zurab-veterinar.ru/">Zurab-veterinar.ru</a></li>
+            <li><a href="https://orangutanbarber.ru/">Orangutanbarber.ru</a></li>
+            <li><a href="https://nadonadostore.ru/">Nadonadostore.ru</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <h2 id="english">English</h2>
+          <p>Pre-Intermediate</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="copy">&copy; 2021 - 2022 </p>
+    </footer>
+  </div>
 </body>
 </html>
