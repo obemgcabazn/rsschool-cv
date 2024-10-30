@@ -1,0 +1,405 @@
+@charset "UTF-8";
+img { max-width: 100%; }
+input:focus, button:focus {  outline: none; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body { line-height: 1; }
+
+ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  background: transparent;
+  border-radius: 0;
+}
+
+input:focus, input:active {
+  border-radius: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+*:focus, *:active {
+  outline: none;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.33em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 552px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 992px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1366px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1464px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+body {
+  background: #FAF9F7;
+  padding: 50px 0 0;
+}
+
+.container {
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.col-1 {
+  width: 8.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.col-2 {
+  width: 16.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-3 {
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-4 {
+  width: 33.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-5 {
+  width: 41.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-6 {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-7 {
+  width: 58.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-8 {
+  width: 66.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-9 {
+  width: 75%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-10 {
+  width: 83.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-11 {
+  width: 91.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  padding: 50px 20px 20px;
+  margin-bottom: 150px;
+}
+.accent {
+  color: #FFC736;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul a {
+  display: inline-block;
+  padding: 7px 12px;
+  color: #161D26;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .3s ease;
+}
+header nav ul a:hover {
+  color: #FFC736;
+  transition: color .3s ease;
+}
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+* {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: #161D26;
+}
+
+h1, .h1 {
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.015em;
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h1, .h1 {
+    font-size: 80px;
+    letter-spacing: -0.01em;
+  }
+}
+
+h2, .h2, footer .logo__wrapper .logo {
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+}
+
+@media (min-width: 768px) {
+  h2, .h2, footer .logo__wrapper .logo {
+    line-height: 110%;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h2, .h2, footer .logo__wrapper .logo {
+    font-size: 60px;
+    letter-spacing: -0.02em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+h3, .h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.015em;
+}
+
+@media (min-width: 768px) {
+  h3, .h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h3, .h3 {
+    font-size: 44px;
+    line-height: 98%;
+    letter-spacing: -0.01em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#contacts {
+  margin-bottom: 150px;
+}
+.contacts__title {
+  margin-bottom: 40px;
+}
+
+.contact__item {
+  border-left: 2px solid #FFC736;
+  padding-left: 20px;
+}
+
+.contact__name {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #161D26;
+  margin-bottom: 10px;
+}
+
+.pr-5 {
+  padding-right: 5em;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+.contact__link {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ul.list-dots {
+  padding-left: 20px;
+  position: relative;
+  padding-bottom: 20px;
+}
+ul.list-dots li {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+ul.list-dots li:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  margin-top: .75rem;
+  display: inline-block;
+  left: 0;
+  background: url("../images/dots.svg") no-repeat;
+}
+#experience, #english {
+  margin-top: 80px;
+}
+
+
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #FFC736;
+}
+.copy {
+  margin-top: 80px;
+}
