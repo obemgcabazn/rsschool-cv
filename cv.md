@@ -3,11 +3,13 @@
 ## Contacts
 - Github: [@obemgcabazn](https://github.com/obemgcabazn/)
 - Codewars: [@obemgcabazn](https://www.codewars.com/users/obemgcabazn)
-- E-mail: office@spaceweb.studio
+- E-mail: obemg@mail.ru
 - Website: [My Blog](https://mad-dog.ru/)
 - Location: Moscow
 
 ## About me
+I am WordPress & WooCommerce developer from Moscow. I learned SEO optimization in SEO Intellect Company. Also, I did an internship as a PHP developer in the company. I got a magister`s degree as a rocket engine engineer.
+I play guitar in a rock band in my free time.
 
 ## My Skills
 - HTML, CSS
